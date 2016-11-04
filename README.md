@@ -39,9 +39,8 @@ The template name used in the parameter is the filename of the template, without
 
 ## Custom options
 
-The following options can be provided:
-
-* ``files`` is the pattern, parsed by the [globby](https://www.npmjs.com/package/globby) module.
+A ``files`` option can be provided to indicate where the template files can be found.
+This pattern is parsed by the [globby](https://www.npmjs.com/package/globby) module.
 
 ```javascript
 require('bluegate-handlebars')(app, {
